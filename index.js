@@ -1,13 +1,13 @@
 const express = require("express");
 const parser = require("body-parser");
-// const { JSONFilePreset } = require("lowdb/node");
 const { createFile, readDirectory } = require("./Utils/CreateFile");
+const mongoose = require('./DB/DB');
 const HTTP_SERVER = express();
-const PORT = 0.0.0.0;
+const PORT = '5000';
 
 HTTP_SERVER.use(parser.json());
 
-HTTP_SERVER.listen(PORT,"https://render.com/docs/web-services#port-binding",()=>{
+HTTP_SERVER.listen(PORT,()=>{
     console.log("Server is running on port 5000");
 })
 
