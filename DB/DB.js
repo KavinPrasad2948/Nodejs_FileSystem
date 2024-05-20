@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
-const Password = '2HkkLArhqbP4RqoR'
-const dbURL =`mongodb+srv://kavinprasad2948:${Password}@hallbooking.lokd4tl.mongodb.net/`
+const Password = '0zlwemZR8LIlS71I'
+const dbURL =`mongodb+srv://jcgccssiq:${Password}@kavin.mphmlun.mongodb.net/`
 
 mongoose.connect(dbURL)
 .then(()=>{
