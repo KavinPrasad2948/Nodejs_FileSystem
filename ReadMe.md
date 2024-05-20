@@ -8,7 +8,7 @@ This Node.js application provides an API for creating timestamped text files and
   - POST `/create`: Creates a file with the current date and time in the content and filename.
   
 - **Read Directory Contents**:
-  - Future endpoint to list all files in the directory.
+  - GET `/files` : List all files in the directory.
 
 ## 🛠️ Technology Stack
 
